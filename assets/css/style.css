@@ -633,7 +633,7 @@ a:hover {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(78, 78, 78, 0.9);
+  background: rgba(8, 8, 8, 1);
   transition: 0.3s;
   z-index: 999;
 }
@@ -645,20 +645,21 @@ a:hover {
 }
 
 .navbar-mobile ul {
-  display: block;
+  display: flex;
+  flex-direction: column;
   position: absolute;
-  top: 55px;
+  top: 95px;
   right: 15px;
   bottom: 15px;
   left: 15px;
   padding: 10px 0;
-  background-color: #fff;
   overflow-y: auto;
   transition: 0.3s;
 }
 
 .navbar-mobile > ul > li {
-  padding: 0;
+  padding: 20px 0;
+  border-bottom: 0.3px solid rgb(41, 41, 41);
 }
 
 .navbar-mobile a:hover:before, .navbar-mobile li:hover > a:before, .navbar-mobile .active:before {
@@ -668,11 +669,11 @@ a:hover {
 .navbar-mobile a {
   padding: 10px 20px;
   font-size: 15px;
-  color: #4e4e4e;
+  color: #8a8a8a;
 }
 
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #0078ff;
+  color: #fff;
 }
 
 .navbar-mobile .getstarted {
