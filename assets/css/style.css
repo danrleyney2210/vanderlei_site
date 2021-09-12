@@ -94,7 +94,7 @@ a:hover {
 }
 
 .overlay-mf {
-  background-color: #0078ff;
+  background-color: #272727;
 }
 
 .overlay-mf {
@@ -194,7 +194,8 @@ a:hover {
 .box-shadow-full {
   padding: 3rem 1.25rem;
   position: relative;
-  background-color: #fff;
+  background-color: rgb(20, 20, 20);
+  opacity: .7;
   margin-bottom: 3rem;
   z-index: 2;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
@@ -223,13 +224,17 @@ a:hover {
   line-height: 1.6;
   margin: 0 15px 0 0;
   box-shadow: 0 0 0 3px #0078ff;
+  color: #cde1f8;
   transition: all 500ms ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .socials .ico-circle:hover {
   background-color: #0078ff;
   color: #fff;
-  box-shadow: 0 0 0 3px #cde1f8;
+  box-shadow: 0 0 0 3px #0078ff;
   transition: all 500ms ease;
 }
 
@@ -432,8 +437,8 @@ a:hover {
   font-size: 1.2rem;
 }
 
-.button-rouded {
-  border-radius: 5rem;
+.button-van{
+  border-radius: 5px;
 }
 
 .btn-lg {
@@ -812,8 +817,9 @@ a:hover {
   margin-bottom: 2rem;
 }
 
-.about-mf .about-img img {
-  margin-left: 10px;
+.about-mf .about-img .img-profile {
+  border-radius: 50%;
+  margin-left: 0;
 }
 
 @media (min-width: 767px) {
@@ -1431,7 +1437,7 @@ footer {
   text-align: center;
   color: #fff;
   padding: 25px 0;
-  background: #0062d3;
+  background: #252525;
 }
 
 footer .copyright {
