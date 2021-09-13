@@ -875,7 +875,21 @@ a:hover {
   justify-content: center;
 }
 
+.service-box .ico-circle .icon-van {
+  width: 65px;
+  height: 65px;
+}
+
+.service-box:hover .ico-circle .icon-van {
+  color: #fff;
+}
+
 .service-box .ico-circle i {
+  line-height: 0;
+  font-size: 40px;
+}
+
+.service-box .ico-circle svg {
   line-height: 0;
   font-size: 40px;
 }
