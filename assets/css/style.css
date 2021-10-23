@@ -148,6 +148,11 @@ a:hover {
   margin-bottom: 4rem;
 }
 
+.text-vanderlei {
+  color: #fff;
+  text-align: justify;
+}
+
 .title-a {
   text-decoration: none;
   font-size: 3rem;
@@ -182,7 +187,7 @@ a:hover {
   position: absolute;
   height: 3px;
   background-color: #0078ff;
-  width: 100px;
+  width: 50px;
   bottom: -12px;
 }
 
@@ -732,7 +737,7 @@ a:hover {
 }
 
 .hero .overlay-itro {
-  background-color: rgba(0, 0, 0, 0.4);
+  /* background-color: rgba(0, 0, 0, 0.2); */
   position: absolute;
   top: 0;
   left: 0px;
@@ -1464,4 +1469,12 @@ footer .credits {
 
 footer .credits a {
   color: #fff;
+}
+
+/* Custon */
+
+.fundo-about {
+    background-color: rgba(37, 37, 37, 0.6);
+    border-radius: 14px;
+
 }
