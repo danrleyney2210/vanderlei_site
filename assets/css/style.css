@@ -947,7 +947,24 @@ a:hover {
   margin-bottom: 3rem;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  background-color: #fff;
+  background-color: black;
+  border-radius: 16px;
+  
+}
+
+.work-box .work-img {
+  /* height: 400px; */
+
+  /* background-size: cover; */
+}
+
+.work-box .work-img img {
+  max-width: 100%;
+  height: auto;
+}
+
+.work-box h2 {
+  color: #fff;
 }
 
 .work-box:hover img {
